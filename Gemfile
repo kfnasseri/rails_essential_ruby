@@ -1,6 +1,5 @@
 source 'http://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use sqlite3 as the database for Active Record
@@ -43,3 +42,4 @@ gem 'rspec-rails', group: [:test, :development]
 gem 'capybara', group: [:test, :development]
 gem 'quiet_assets', group: [:test, :development]
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'pry'
